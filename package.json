@@ -18,11 +18,12 @@
     "three": "latest"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "latest",
     "@tailwindcss/postcss": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "@eslint/eslintrc": "latest",
+    "@types/three": "^0.184.0",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "tailwindcss": "latest",
