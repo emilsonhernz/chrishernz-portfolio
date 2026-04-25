@@ -24,9 +24,13 @@ export const metadata: Metadata = {
     template: `%s | ${profile.name}`
   },
   icons: {
-    icon: "/brand/favicon.ico",
+    icon: [
+      { url: "/brand/favicon.ico" },
+      { url: "/brand/android-chrome-192x192.png", sizes: "192x192", type: "image/png" },
+      { url: "/brand/android-chrome-512x512.png", sizes: "512x512", type: "image/png" }
+    ],
     shortcut: "/brand/favicon.ico",
-    apple: "/brand/favicon.ico"
+    apple: "/brand/apple-touch-icon.png"
   },
   description:
     "Back-End Software Engineer and Automation & Integration Specialist building APIs, business systems, and workflow automation.",
