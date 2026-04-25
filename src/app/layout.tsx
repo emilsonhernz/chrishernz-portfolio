@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     default: `${profile.name} | Back-End Software Engineer`,
     template: `%s | ${profile.name}`
   },
+  icons: {
+    icon: "/brand/favicon.png",
+    shortcut: "/brand/favicon.png",
+    apple: "/brand/favicon.png"
+  },
   description:
     "Back-End Software Engineer and Automation & Integration Specialist building APIs, business systems, and workflow automation.",
   keywords: [
