@@ -32,7 +32,7 @@ export function ContactForm() {
   const mailtoHref = `mailto:${profile.email}?subject=${encodeURIComponent(activeIntent.subject)}&body=${encodeURIComponent(mailtoBody)}`;
 
   return (
-    <form className="grid gap-5 rounded-lg border border-white/10 bg-white/[0.035] p-5">
+    <form autoComplete="off" className="rounded-lg border border-white/10 bg-white/[0.035] p-5">
       <div className="grid gap-2">
         <label className="text-sm font-medium text-zinc-200">Inquiry type</label>
         <div className="flex flex-wrap gap-2">
@@ -53,29 +53,34 @@ export function ContactForm() {
         </div>
       </div>
 
-      <div className="grid gap-4 md:grid-cols-2">
-        <label className="grid gap-2 text-sm font-medium text-zinc-200">
-          Name
+      <div className="mt-4 grid items-start gap-4 md:grid-cols-2">
+        <label className="flex min-w-0 flex-col gap-2 self-start text-sm font-medium text-zinc-200">
+          <span>Name</span>
           <input
             value={name}
             onChange={(event) => setName(event.target.value)}
-            className="h-12 w-full rounded-md border border-white/10 bg-zinc-950 px-3 text-zinc-100 outline-none transition placeholder:text-zinc-600 focus:border-cyan-300"
+            autoComplete="off"
+            spellCheck={false}
+            className="h-12 w-full min-w-0 appearance-none rounded-md border border-white/10 bg-zinc-950 px-3 pr-12 align-middle text-zinc-100 outline-none transition placeholder:text-zinc-600 focus:border-cyan-300"
             placeholder="Your name"
           />
         </label>
-        <label className="grid gap-2 text-sm font-medium text-zinc-200">
-          Email
+        <label className="flex min-w-0 flex-col gap-2 self-start text-sm font-medium text-zinc-200">
+          <span>Email</span>
           <input
             type="email"
             value={email}
             onChange={(event) => setEmail(event.target.value)}
-            className="h-12 w-full rounded-md border border-white/10 bg-zinc-950 px-3 text-zinc-100 outline-none transition placeholder:text-zinc-600 focus:border-cyan-300"
+            autoComplete="email"
+            inputMode="email"
+            spellCheck={false}
+            className="h-12 w-full min-w-0 appearance-none rounded-md border border-white/10 bg-zinc-950 px-3 align-middle text-zinc-100 outline-none transition placeholder:text-zinc-600 focus:border-cyan-300"
             placeholder="you@company.com"
           />
         </label>
       </div>
 
-      <label className="grid gap-2 text-sm font-medium text-zinc-200">
+      <label className="mt-3 grid gap-1.5 text-sm font-medium text-zinc-200">
         Message
         <textarea
           value={message}
@@ -85,16 +90,16 @@ export function ContactForm() {
         />
       </label>
 
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+      <div className="mt-3 grid gap-3">
         <p className="max-w-xl text-sm leading-6 text-zinc-500">
           This form still opens your email client for now, but it now includes the name, email, and message you entered.
         </p>
         <a
           href={mailtoHref}
-          className="inline-flex min-h-12 items-center justify-center gap-2 self-start rounded-md bg-cyan-300 px-5 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-cyan-200 focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:ring-offset-2 focus:ring-offset-zinc-950"
+          className="inline-flex min-h-12 items-center justify-center gap-2 self-start whitespace-nowrap rounded-md bg-cyan-300 px-5 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-cyan-200 focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:ring-offset-2 focus:ring-offset-zinc-950 sm:justify-self-end"
         >
           <Send size={16} />
-          Email Emil
+          Send Email
         </a>
       </div>
     </form>

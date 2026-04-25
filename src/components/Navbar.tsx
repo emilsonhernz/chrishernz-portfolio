@@ -21,13 +21,9 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/78 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 md:px-6">
-        <Link href="/" className="group flex items-center gap-3" onClick={() => setIsOpen(false)}>
-          <span className="grid size-9 place-items-center rounded-lg border border-cyan-300/35 bg-cyan-300/10 text-sm font-bold text-cyan-200">
-            EH
-          </span>
-          <span className="leading-tight">
-            <span className="block text-sm font-semibold text-zinc-50">{profile.name}</span>
-            <span className="block text-xs text-zinc-500">Backend / Automation</span>
+        <Link href="/" className="group inline-flex items-center" onClick={() => setIsOpen(false)}>
+          <span className="font-mono text-2xl font-semibold tracking-tight text-zinc-50 transition group-hover:text-cyan-300">
+            hernz<span className="text-cyan-300 transition group-hover:text-cyan-300">.</span>dev
           </span>
         </Link>
 

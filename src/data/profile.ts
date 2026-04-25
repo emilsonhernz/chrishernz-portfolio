@@ -34,13 +34,6 @@ export const contactIntents = [
       "Hi Emil, I need to connect two systems. The source system is... and the destination system is..."
   },
   {
-    id: "netsuite",
-    label: "NetSuite Support",
-    subject: "NetSuite Automation or Integration Support",
-    placeholder:
-      "Hi Emil, I need help with NetSuite involving sales orders, SuiteScript, saved searches, or integrations..."
-  },
-  {
     id: "general",
     label: "General Inquiry",
     subject: "General Inquiry",

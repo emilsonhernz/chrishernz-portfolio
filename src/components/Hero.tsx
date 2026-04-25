@@ -27,7 +27,6 @@ export function Hero() {
         <div className="max-w-3xl space-y-8">
           <motion.div variants={fadeUp} className="space-y-1 font-mono text-sm font-semibold text-cyan-300 md:text-base">
             <p>{profile.role}</p>
-            <p className="text-zinc-50">emilhernaez.dev</p>
           </motion.div>
           <motion.h1 variants={fadeUp} className="max-w-3xl text-4xl font-semibold leading-[1.12] text-zinc-50 sm:text-5xl md:text-6xl lg:text-7xl">
             Reliable APIs.

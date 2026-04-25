@@ -59,7 +59,7 @@ export default function HomePage() {
           title="Hiring for backend work or trying to remove manual operations?"
           description="I can help build reliable systems that connect tools, reduce repeated work, and make operational data easier to trust."
           primaryHref="/contact"
-          primaryLabel="Contact Emil"
+          primaryLabel="Book a Call"
           secondaryHref="/services"
           secondaryLabel="View Services"
         />
