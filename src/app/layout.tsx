@@ -40,9 +40,8 @@ export const metadata: Metadata = {
     "Back-End Software Engineer",
     "Automation Specialist",
     "API Integration",
-    "NetSuite",
     "n8n",
-    "SuiteScript",
+    "Workflow Automation",
     "Emil Hernaez"
   ],
   openGraph: {

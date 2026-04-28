@@ -1,4 +1,4 @@
-export type ProjectFilter = "All" | "Back-End" | "Automation" | "Integration" | "NetSuite";
+export type ProjectFilter = "All" | "Back-End" | "Automation" | "Integration";
 
 export type Project = {
   title: string;
@@ -22,39 +22,9 @@ export type Project = {
   featured?: boolean;
 };
 
-export const projectFilters: ProjectFilter[] = ["All", "Back-End", "Automation", "Integration", "NetSuite"];
+export const projectFilters: ProjectFilter[] = ["All", "Back-End", "Automation", "Integration"];
 
 export const projects: Project[] = [
-  {
-    title: "NetSuite Sales Order Automation",
-    category: "Back-End / Business Systems",
-    filters: ["Back-End", "NetSuite"],
-    problem: "Manual and inconsistent sales order handling created delays and required repeated checks.",
-    built:
-      "SuiteScript automation for sales order validation, approval logic, freight handling, and backorder notifications.",
-    tech: ["NetSuite", "SuiteScript", "JavaScript", "Saved Searches"],
-    result: "Improved consistency and reduced manual review work.",
-    overview:
-      "This project focused on making NetSuite sales order handling more predictable by moving recurring checks and exception handling into scripted automation.",
-    details: [
-      "Validated sales order information before the record moved further into the fulfillment process.",
-      "Handled approval logic and freight-related rules to reduce inconsistent manual decisions.",
-      "Used saved searches and notifications to surface backorder cases earlier."
-    ],
-    media: [
-      {
-        type: "image",
-        label: "Sales order validation flow",
-        alt: "Placeholder for NetSuite sales order automation screenshot"
-      },
-      {
-        type: "video",
-        label: "Automation walkthrough",
-        alt: "Placeholder for a short NetSuite automation demo video"
-      }
-    ],
-    featured: true
-  },
   {
     title: "n8n + GoHighLevel CRM Automation",
     category: "Automation / CRM Integration",
@@ -130,31 +100,6 @@ export const projects: Project[] = [
         type: "image",
         label: "Middleware mapping diagram",
         alt: "Placeholder for API middleware mapping diagram"
-      }
-    ]
-  },
-  {
-    title: "Magento to NetSuite Integration Support",
-    category: "Integration / NetSuite",
-    filters: ["Integration", "NetSuite"],
-    problem:
-      "Sales order data from Magento needed to be correctly interpreted in NetSuite, including line item rules and location logic.",
-    built:
-      "Reviewed and maintained integration scripts, sales order creation logic, and item-specific handling rules.",
-    tech: ["NetSuite", "Magento", "SuiteScript", "JavaScript"],
-    result: "Improved understanding and maintainability of complex order integration logic.",
-    overview:
-      "This project supported a complex Magento to NetSuite order flow where line item handling and location logic needed careful interpretation.",
-    details: [
-      "Reviewed sales order creation logic to understand how incoming Magento data mapped to NetSuite records.",
-      "Maintained SuiteScript behavior around item-specific rules and locations.",
-      "Improved maintainability by documenting and clarifying integration behavior."
-    ],
-    media: [
-      {
-        type: "image",
-        label: "Order integration logic",
-        alt: "Placeholder for Magento to NetSuite integration logic"
       }
     ]
   }

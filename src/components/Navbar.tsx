@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
@@ -11,6 +12,7 @@ const navItems = [
   { href: "/resume", label: "Resume" },
   { href: "/services", label: "Services" },
   { href: "/projects", label: "Projects" },
+  { href: "/articles", label: "Articles" },
   { href: "/contact", label: "Contact" }
 ];
 
@@ -21,7 +23,16 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/78 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 md:px-6">
-        <Link href="/" className="group inline-flex items-center" onClick={() => setIsOpen(false)}>
+        <Link href="/" className="group inline-flex items-center gap-3" onClick={() => setIsOpen(false)}>
+          <span className="flex size-10 items-center justify-center overflow-hidden rounded-xl border border-white/10 bg-[#101a2d] p-1 shadow-[0_0_0_1px_rgba(255,255,255,0.02)] transition group-hover:border-cyan-300/40 group-hover:bg-[#13233e]">
+            <Image
+              src="/brand/official-logo.png"
+              alt="hernz.dev logo"
+              width={32}
+              height={32}
+              className="size-8 rounded-md object-cover"
+            />
+          </span>
           <span className="font-mono text-2xl font-semibold tracking-tight text-zinc-50 transition group-hover:text-cyan-300">
             hernz<span className="text-cyan-300 transition group-hover:text-cyan-300">.</span>dev
           </span>

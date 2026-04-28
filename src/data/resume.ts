@@ -1,5 +1,5 @@
 export const professionalSummary =
-  "Back-end developer with 6+ years of experience building and maintaining business systems, APIs, database-driven applications, integrations, and automation workflows. Experienced in .NET, C#, SQL Server, SuiteScript, NetSuite customizations, REST/SOAP APIs, n8n, and workflow automation.";
+  "Back-end developer with 6+ years of experience building and maintaining business systems, APIs, database-driven applications, integrations, and automation workflows. Experienced in .NET, C#, SQL Server, REST/SOAP APIs, n8n, and workflow automation.";
 
 export const skillGroups = [
   {
@@ -20,12 +20,12 @@ export const skillGroups = [
     skills: [
       { name: "n8n", description: "Workflow automation and API orchestration." },
       { name: "GoHighLevel", description: "CRM automation, opportunities, tasks, and appointments." },
-      { name: "NetSuite", description: "Business system customization and integration support." },
-      { name: "SuiteScript", description: "NetSuite automation, validation, and business logic." },
       { name: "Webhooks", description: "Event-based integrations between tools and services." },
       { name: "Postman", description: "API testing, payload inspection, and integration debugging." },
       { name: "JSON", description: "Data mapping and API payload design." },
-      { name: "API Mapping", description: "Field transformation between disconnected systems." }
+      { name: "API Mapping", description: "Field transformation between disconnected systems." },
+      { name: "Middleware", description: "Controlled handoff layers between systems with different payload expectations." },
+      { name: "Error Handling", description: "Practical retry, validation, and failure visibility for integrations." }
     ]
   },
   {
@@ -39,11 +39,10 @@ export const skillGroups = [
   {
     title: "Business Systems",
     skills: [
-      { name: "NetSuite", description: "ERP customization, saved searches, and SuiteScript workflows." },
       { name: "Shopify", description: "Commerce workflows and order-related integration support." },
       { name: "WooCommerce", description: "Order and customer data automation." },
-      { name: "Magento", description: "Commerce integration support and order logic." },
-      { name: "GoHighLevel", description: "CRM workflow and marketing operation automation." }
+      { name: "GoHighLevel", description: "CRM workflow and marketing operation automation." },
+      { name: "ERP Integrations", description: "Operational workflows that connect internal systems with external tools." }
     ]
   }
 ];
@@ -55,7 +54,7 @@ export const timelineItems = [
     organization: "Business systems, APIs, integrations, and automation workflows",
     period: "6+ years",
     summary:
-      "Built and maintained database-driven applications, NetSuite customizations, API integrations, and internal automation workflows."
+      "Built and maintained database-driven applications, API integrations, and internal automation workflows."
   },
   {
     type: "Education",

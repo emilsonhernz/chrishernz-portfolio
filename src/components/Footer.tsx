@@ -10,6 +10,7 @@ export function Footer() {
           <Link href="/resume" className="hover:text-zinc-200">Resume</Link>
           <Link href="/services" className="hover:text-zinc-200">Services</Link>
           <Link href="/projects" className="hover:text-zinc-200">Projects</Link>
+          <Link href="/articles" className="hover:text-zinc-200">Articles</Link>
           <Link href="/contact" className="hover:text-zinc-200">Contact</Link>
         </div>
       </div>

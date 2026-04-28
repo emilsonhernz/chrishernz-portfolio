@@ -9,8 +9,6 @@ import { problemsSolved, processSteps } from "@/data/services";
 
 const tools = [
   "n8n",
-  "NetSuite",
-  "SuiteScript",
   "GoHighLevel",
   "REST APIs",
   "SOAP APIs",
@@ -19,7 +17,7 @@ const tools = [
   "SQL Server",
   "PostgreSQL",
   "WooCommerce",
-  "Magento"
+  "JSON"
 ];
 
 export const metadata = {

@@ -34,7 +34,7 @@ export function Hero() {
             <span className="block text-zinc-400 italic">Systems that stay connected.</span>
           </motion.h1>
           <motion.p variants={fadeUp} className="max-w-2xl text-lg leading-8 text-zinc-300">
-            I build back-end services, NetSuite customizations, n8n workflows, and system integrations that reduce manual work and keep business data moving cleanly.
+            I build back-end services, n8n workflows, and system integrations that reduce manual work and keep business data moving cleanly.
           </motion.p>
           <motion.div variants={fadeUp} className="flex flex-col gap-3 sm:flex-row">
             <Link href="/resume" className="inline-flex items-center justify-center gap-2 rounded-md bg-cyan-300 px-5 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-cyan-200 focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:ring-offset-2 focus:ring-offset-[#151528]">

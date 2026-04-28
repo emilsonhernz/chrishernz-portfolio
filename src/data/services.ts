@@ -30,13 +30,6 @@ export const services = [
     outcome: "Cleaner CRM data and faster follow-up without repetitive setup work."
   },
   {
-    title: "NetSuite Automation",
-    summary: "Customize business logic around records, saved searches, sales orders, and operational workflows.",
-    useCases: ["Sales order logic", "Validation rules", "Saved search automation", "Backorder alerts"],
-    tools: ["NetSuite", "SuiteScript", "Saved Searches", "JavaScript"],
-    outcome: "More consistent ERP behavior and less manual review."
-  },
-  {
     title: "Webhook and Middleware Development",
     summary: "Receive, validate, transform, and forward event data between systems.",
     useCases: ["Form intake", "Order events", "Status updates", "External notifications"],
@@ -61,7 +54,7 @@ export const services = [
     title: "Business Process Automation",
     summary: "Map a manual process, identify failure points, and build the practical automation around it.",
     useCases: ["Admin workflows", "Approvals", "Notifications", "Operations handoffs"],
-    tools: ["n8n", "APIs", "NetSuite", "GoHighLevel"],
+    tools: ["n8n", "APIs", "GoHighLevel", "Webhooks"],
     outcome: "Less repeated work and fewer operational mistakes."
   }
 ];
@@ -81,11 +74,6 @@ export const workflows = [
     title: "API Monitoring",
     label: "API -> Database -> Monitoring Alert",
     steps: ["API data sync", "PostgreSQL database", "Monitoring alert"]
-  },
-  {
-    title: "NetSuite Support",
-    label: "NetSuite Event -> Case Creation -> Notification",
-    steps: ["NetSuite sales order event", "Support case creation", "Email notification"]
   },
   {
     title: "Report Summary",

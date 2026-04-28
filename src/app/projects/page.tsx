@@ -5,7 +5,7 @@ import { SectionHeader } from "@/components/SectionHeader";
 export const metadata = {
   title: "Projects",
   description:
-    "Selected back-end, automation, integration, and NetSuite projects by Emil Hernaez."
+    "Selected back-end, automation, and integration projects by Emil Hernaez."
 };
 
 export default function ProjectsPage() {

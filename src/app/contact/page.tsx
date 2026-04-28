@@ -7,7 +7,7 @@ import { profile } from "@/data/profile";
 export const metadata = {
   title: "Contact",
   description:
-    "Contact Emil Hernaez for back-end engineering, automation, API integration, and NetSuite support."
+    "Contact Emil Hernaez for back-end engineering, automation, and API integration work."
 };
 
 export default function ContactPage() {
