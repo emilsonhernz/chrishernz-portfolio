@@ -50,11 +50,27 @@ export const skillGroups = [
 export const timelineItems = [
   {
     type: "Experience",
-    title: "Back-End Software Engineer",
-    organization: "Business systems, APIs, integrations, and automation workflows",
-    period: "6+ years",
+    title: "Senior Software Engineer",
+    organization: "Networld Capital Ventures Inc.",
+    period: "2020 - Present",
     summary:
-      "Built and maintained database-driven applications, API integrations, and internal automation workflows."
+      "Develop, enhance, and maintain backend systems for Cebuana Lhuillier Bank, including .NET-based services, end-to-end integration APIs, technical design work, production support, and cross-functional delivery."
+  },
+  {
+    type: "Experience",
+    title: "Automation and Integration Specialist",
+    organization: "Freelance",
+    period: "2024 - Present",
+    summary:
+      "Design and deploy automation workflows using n8n, API integrations, database synchronization, AI-assisted process flows, and multi-step automations that reduce manual work for clients."
+  },
+  {
+    type: "Education",
+    title: "BS Electronics Engineering",
+    organization: "Adamson University",
+    period: "2013 - 2018",
+    summary:
+      "Completed a Bachelor of Science in Electronics Engineering with a foundation in engineering fundamentals, systems thinking, and technical problem-solving."
   },
   {
     type: "Education",
@@ -62,6 +78,14 @@ export const timelineItems = [
     organization: "University of the Philippines Open University",
     period: "Started 2025, expected completion 2027",
     summary:
-      "Formal computer science study focused on strengthening software engineering fundamentals and long-term technical depth."
+      "Current formal computer science study focused on strengthening software engineering fundamentals and long-term technical depth."
+  },
+  {
+    type: "Certification",
+    title: "Licensed Electronics Engineer",
+    organization: "Professional Regulation Commission, Philippines",
+    period: "Valid through 2028",
+    summary:
+      "Professional license under the Professional Regulation Commission in the Philippines, with current validity through 2028."
   }
 ];
