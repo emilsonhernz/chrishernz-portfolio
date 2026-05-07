@@ -66,19 +66,19 @@ export const timelineItems = [
   },
   {
     type: "Education",
-    title: "BS Electronics Engineering",
-    organization: "Adamson University",
-    period: "2013 - 2018",
-    summary:
-      "Completed a Bachelor of Science in Electronics Engineering with a foundation in engineering fundamentals, systems thinking, and technical problem-solving."
-  },
-  {
-    type: "Education",
     title: "Diploma in Computer Science",
     organization: "University of the Philippines Open University",
     period: "Started 2025, expected completion 2027",
     summary:
       "Current formal computer science study focused on strengthening software engineering fundamentals and long-term technical depth."
+  },
+  {
+    type: "Education",
+    title: "Bachelor of Science in Electronics Engineering",
+    organization: "Adamson University",
+    period: "2013 - 2018",
+    summary:
+      "Completed a Bachelor of Science in Electronics Engineering with a foundation in engineering fundamentals, systems thinking, and technical problem-solving."
   },
   {
     type: "Certification",

@@ -26,6 +26,38 @@ export const projectFilters: ProjectFilter[] = ["All", "Back-End", "Automation",
 
 export const projects: Project[] = [
   {
+    title: "Full Business Automation System",
+    category: "Automation / API Integration",
+    filters: ["Automation", "Integration", "Back-End"],
+    problem:
+      "Core business processes across onboarding, CRM, order handling, referrals, and follow-ups were spread across multiple tools and required heavy manual coordination.",
+    built:
+      "A connected automation ecosystem using n8n, GoHighLevel, ClickUp, Pushlap, internal APIs, webhooks, and custom workflow logic.",
+    tech: ["n8n", "GoHighLevel", "ClickUp", "Pushlap", "Internal APIs", "Webhooks", "JSON"],
+    result:
+      "Streamlined operations, reduced manual work significantly, and improved consistency, visibility, and reliability across business processes.",
+    overview:
+      "This was a large-scale automation and integration project focused on connecting multiple operational systems into a single working ecosystem that could support business growth without depending on repeated manual handling.",
+    details: [
+      "Built automations for discovery calls, onboarding, CRM and pipeline management, and affiliate and partner registration.",
+      "Connected order processing, fulfillment, lead routing, ClickUp task creation, tracking confirmations, receipts, and abandoned cart follow-up flows.",
+      "Handled workflow reliability, data consistency, error handling, and automation scaling across the full ecosystem."
+    ],
+    media: [
+      {
+        type: "image",
+        label: "Business automation ecosystem overview",
+        alt: "Placeholder for full business automation system overview"
+      },
+      {
+        type: "image",
+        label: "Cross-platform workflow map",
+        alt: "Placeholder for n8n, GoHighLevel, ClickUp, and Pushlap workflow map"
+      }
+    ],
+    featured: true
+  },
+  {
     title: "n8n + GoHighLevel CRM Automation",
     category: "Automation / CRM Integration",
     filters: ["Automation", "Integration"],
