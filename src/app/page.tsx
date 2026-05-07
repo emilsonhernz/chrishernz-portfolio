@@ -27,17 +27,17 @@ export default function HomePage() {
       <div className="mx-auto grid max-w-6xl gap-20 px-4 py-20 md:px-6">
         <MotionSection className="rounded-2xl border border-white/10 bg-[linear-gradient(135deg,rgba(255,255,255,0.04),rgba(255,255,255,0.015))] p-5 shadow-[0_18px_55px_rgba(4,8,20,0.18)] md:p-6">
           <div className="grid gap-5 md:grid-cols-[auto_1fr] md:items-center">
-            <div className="flex size-16 items-center justify-center overflow-hidden rounded-2xl border border-white/10 bg-[#101a2d] p-2 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]">
+            <div className="flex size-24 items-center justify-center overflow-hidden rounded-3xl border border-white/10 bg-[#101a2d] p-2.5 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]">
               <Image
                 src="/brand/official-logo.png"
                 alt={`${profile.name} logo`}
-                width={48}
-                height={48}
-                className="size-12 rounded-lg object-cover"
+                width={76}
+                height={76}
+                className="size-[76px] rounded-xl object-cover"
               />
             </div>
             <div className="space-y-4">
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">About Emil</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">About hernz.dev</p>
               <div className="space-y-3">
                 <h2 className="max-w-3xl text-2xl font-semibold leading-tight text-zinc-50 md:text-3xl">
                   Engineering systems that stay reliable after launch, not just during the demo.
