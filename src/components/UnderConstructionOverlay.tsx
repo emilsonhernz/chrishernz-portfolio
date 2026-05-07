@@ -15,9 +15,6 @@ export function UnderConstructionOverlay() {
         <p id="under-construction-description" className="mt-4 text-base leading-7 text-zinc-300">
           This website is currently being updated. Some sections, links, and content may still be in progress while the new version is being completed.
         </p>
-        <p className="mt-4 text-sm leading-6 text-zinc-400">
-          To disable this popup later, set <code className="rounded bg-white/5 px-1.5 py-0.5 text-zinc-200">showUnderConstructionOverlay</code> to <code className="rounded bg-white/5 px-1.5 py-0.5 text-zinc-200">false</code> in <code className="rounded bg-white/5 px-1.5 py-0.5 text-zinc-200">src/data/site.ts</code>.
-        </p>
       </div>
     </div>
   );

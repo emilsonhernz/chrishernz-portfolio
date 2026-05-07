@@ -1,3 +1,3 @@
 export const siteStatus = {
-  showUnderConstructionOverlay: true
+  showUnderConstructionOverlay: false
 } as const;
