@@ -69,9 +69,9 @@ export default function HomePage() {
 
         <MotionSection className="space-y-8">
           <SectionHeader
-            eyebrow="Two paths"
-            title="Choose the track that matches what you need."
-            description="One side is for hiring teams reviewing technical experience. The other is for businesses looking for automation and API integration help."
+            eyebrow="Work with Emil"
+            title="Whether you are hiring or improving operations, the goal is the same: dependable systems that do the job well."
+            description="Explore the resume if you are evaluating engineering experience, or go straight to services if you need automation and API integration help for an active business workflow."
           />
 
           <div className="grid gap-5 lg:grid-cols-2">

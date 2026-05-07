@@ -3,7 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import type { ReactNode } from "react";
 import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
+import { UnderConstructionOverlay } from "@/components/UnderConstructionOverlay";
 import { profile } from "@/data/profile";
+import { siteStatus } from "@/data/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -59,6 +61,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <Navbar />
         {children}
         <Footer />
+        {siteStatus.showUnderConstructionOverlay ? <UnderConstructionOverlay /> : null}
       </body>
     </html>
   );
