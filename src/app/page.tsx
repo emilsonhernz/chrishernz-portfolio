@@ -70,7 +70,7 @@ export default function HomePage() {
         <MotionSection className="space-y-8">
           <SectionHeader
             eyebrow="Work with Emil"
-            title="Whether you are hiring or improving operations, the goal is the same: dependable systems that do the job well."
+            title="Reliable systems, practical automation, and work that holds up in real use."
             description="Explore the resume if you are evaluating engineering experience, or go straight to services if you need automation and API integration help for an active business workflow."
           />
 
